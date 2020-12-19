@@ -1,0 +1,32 @@
+.header {
+	grid-column: 1/-1;
+	height: 18rem;
+
+	display: grid;
+	grid-template-columns: 1fr 1.2fr;
+	align-items: center;
+
+	&__logo {
+		img {
+			width: 16.1rem;
+		}
+	}
+
+	&__menu {
+		background: $red;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 4rem;
+
+			a {
+				color: $white;
+			}
+		}
+	}
+}

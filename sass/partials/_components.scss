@@ -1,0 +1,43 @@
+h1 {
+	font-weight: 800;
+	font-size: 8rem;
+	line-height: 8.8rem;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 5.6rem;
+	line-height: 6.4rem;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 2rem;
+	line-height: 3.2rem;
+}
+
+p {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+}
+
+.btn {
+	padding: 3.4rem 4.5rem;
+	display: inline-block;
+	cursor: pointer;
+	background: $red;
+	color: $white;
+}
+
+.btn-black {
+	background: $black-bg;
+	color: $white;
+}
+
+.btn-simple {
+	color: $red;
+	font-size: 1.8rem;
+	padding-bottom: 1rem;
+	border-bottom: 3px solid $red;
+}
