@@ -14,7 +14,7 @@
 		max-width: 54rem;
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) {
 		margin-left: 4rem;
 		grid-column: 1/9;
 
@@ -28,6 +28,9 @@
 			max-width: 39rem;
 		}
 	}
+
+	@media screen and (max-width: 767px) {
+	}
 }
 
 .hero__img {
@@ -37,8 +40,11 @@
 	background-size: cover;
 	width: 100%;
 
-	@media screen and (max-width: 768px) {
-		background: url(/img/tablet/image-hero.jpg);
+	@media screen and (max-width: 1024px) {
+		background: url(https://vieirahenrique.github.io/creative/img/tablet/image-hero.jpg);
 		background-size: cover;
+	}
+
+	@media screen and (max-width: 767px) {
 	}
 }

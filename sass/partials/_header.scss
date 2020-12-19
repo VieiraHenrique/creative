@@ -12,7 +12,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) {
 		grid-template-columns: 1fr 1.6fr;
 		&__logo {
 			margin-left: 4rem;
@@ -36,11 +36,21 @@
 			}
 		}
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 1024px) {
 			ul {
 				margin-left: 2rem;
 				gap: 2rem;
 			}
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		grid-row: 1/2;
+		grid-column: 1/-1;
+		display: flex;
+
+		&__menu {
+			display: none;
 		}
 	}
 }

@@ -9,7 +9,7 @@
 	justify-content: center;
 	align-items: center;
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 1024px) {
 		padding-left: 4rem;
 	}
 
@@ -28,7 +28,7 @@
 		top: 19rem;
 		right: -6.55rem;
 
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 1024px) {
 			width: 6rem;
 			top: 12.5rem;
 			right: -3rem;
@@ -37,6 +37,9 @@
 
 	.wrapper {
 		width: 44.5rem;
+	}
+
+	@media screen and (max-width: 767px) {
 	}
 }
 
@@ -52,5 +55,8 @@
 	align-items: flex-end;
 	.legend {
 		padding: 5rem;
+	}
+
+	@media screen and (max-width: 767px) {
 	}
 }
