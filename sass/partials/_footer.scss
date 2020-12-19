@@ -1,0 +1,26 @@
+.footer {
+	grid-column: 1/-1;
+	grid-row: 8/9;
+
+	display: flex;
+	justify-content: center;
+
+	position: relative;
+
+	.wave {
+		position: absolute;
+		left: -6.55rem;
+		top: 15rem;
+		width: 13.4rem;
+	}
+
+	.wrapper {
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h2 {
+			max-width: 70rem;
+		}
+	}
+}
