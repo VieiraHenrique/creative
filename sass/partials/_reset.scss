@@ -51,4 +51,22 @@ img {
 	@media screen and (max-width: 1024px) {
 		grid-template-rows: 18rem 60rem 54rem 12rem 68rem 35rem 12rem 25rem;
 	}
+
+	@media screen and (max-width: 767px) {
+		all: unset;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 11rem 20rem 51rem 20rem 38rem 20rem 71rem 40rem 27rem 39rem;
+		grid-template-areas:
+			'header'
+			'hero-img'
+			'hero-txt'
+			'strategic-img'
+			'strategic-txt'
+			'approach-title'
+			'approach-topics'
+			'carousel-img'
+			'carousel-ctrl'
+			'footer';
+	}
 }

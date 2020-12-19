@@ -1,0 +1,42 @@
+.strategic__img {
+	grid-area: strategic-img;
+	background: url(/img/mobile/image-strategic.jpg);
+	position: relative;
+
+	img {
+		position: absolute;
+		width: 6rem;
+		bottom: -1.5rem;
+		left: 2.5rem;
+	}
+}
+
+.strategic__text {
+	grid-area: strategic-txt;
+	padding: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 4rem;
+	background: $black-bg;
+
+	.wrapper {
+		color: $white;
+		span {
+			color: $red;
+		}
+		h2 {
+			margin-bottom: 1rem;
+		}
+
+		p {
+			margin-bottom: 2rem;
+			line-height: 1.6;
+		}
+
+		a {
+			font-size: 1.5rem;
+		}
+	}
+}

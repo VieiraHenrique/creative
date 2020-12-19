@@ -1,0 +1,23 @@
+.hero__img {
+	grid-area: hero-img;
+	height: 100%;
+	background: url(/img/mobile/image-hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.hero__text {
+	grid-area: hero-txt;
+	padding: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 3.5rem;
+
+	h1 {
+		font-size: 4rem;
+		line-height: 1.3;
+	}
+}

@@ -1,0 +1,17 @@
+.footer {
+	.wave {
+		display: none;
+	}
+
+	display: flex;
+	align-items: center;
+
+	.wrapper {
+		padding: 2.5rem;
+
+		h2 {
+			line-height: 1.4;
+			margin-bottom: 4rem;
+		}
+	}
+}

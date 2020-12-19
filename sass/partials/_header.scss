@@ -26,6 +26,10 @@
 		justify-content: center;
 		align-items: center;
 
+		.hamburger {
+			display: none;
+		}
+
 		ul {
 			display: flex;
 			align-items: center;

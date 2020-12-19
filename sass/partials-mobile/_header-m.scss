@@ -1,0 +1,45 @@
+.header {
+	grid-area: 'header';
+	padding: 0 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: $white;
+
+	&__logo {
+		img {
+			width: 16rem;
+		}
+	}
+
+	&__menu {
+		ul {
+			position: fixed;
+			background: $black-bg;
+			color: $white;
+			padding: 5rem;
+			width: fit-content;
+			top: 11rem;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: 2rem;
+			display: none;
+
+			.btn {
+				background: $red;
+			}
+
+			a {
+				color: $white;
+			}
+		}
+
+		.show {
+			display: flex;
+		}
+	}
+}
