@@ -4,6 +4,7 @@
 	align-self: center;
 
 	z-index: 1;
+	padding-left: 10rem;
 
 	h1 {
 		margin-bottom: 5.6rem;
@@ -16,6 +17,7 @@
 
 	@media screen and (max-width: 1024px) {
 		margin-left: 4rem;
+		padding-left: 0;
 		grid-column: 1/9;
 
 		h1 {

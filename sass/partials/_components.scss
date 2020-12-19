@@ -40,11 +40,19 @@ p {
 	@media screen and (max-width: 1024px) {
 		padding: 2.5rem 3rem;
 	}
+
+	&:hover {
+		background: #ff9393;
+	}
 }
 
 .btn-black {
 	background: $black-bg;
 	color: $white;
+
+	&:hover {
+		background: #434356;
+	}
 }
 
 .btn-simple {

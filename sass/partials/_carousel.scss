@@ -1,6 +1,7 @@
 .carousel__title {
 	grid-column: 1/7;
 	grid-row: 6/7;
+	z-index: 1000;
 
 	background: $black-bg;
 	color: $white;
@@ -19,6 +20,7 @@
 		gap: 2rem;
 		img {
 			width: 4rem;
+			cursor: pointer;
 		}
 	}
 
