@@ -12,6 +12,13 @@
 		}
 	}
 
+	@media screen and (max-width: 768px) {
+		grid-template-columns: 1fr 1.6fr;
+		&__logo {
+			margin-left: 4rem;
+		}
+	}
+
 	&__menu {
 		background: $red;
 		height: 100%;
@@ -26,6 +33,13 @@
 
 			a {
 				color: $white;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			ul {
+				margin-left: 2rem;
+				gap: 2rem;
 			}
 		}
 	}

@@ -13,6 +13,21 @@
 		margin-bottom: 5.6rem;
 		max-width: 54rem;
 	}
+
+	@media screen and (max-width: 768px) {
+		margin-left: 4rem;
+		grid-column: 1/9;
+
+		h1 {
+			font-size: 5.6rem;
+			line-height: 1.2;
+		}
+
+		p {
+			font-size: 1.5rem;
+			max-width: 39rem;
+		}
+	}
 }
 
 .hero__img {
@@ -21,4 +36,9 @@
 	background: url(https://vieirahenrique.github.io/creative/img/desktop/image-hero.jpg);
 	background-size: cover;
 	width: 100%;
+
+	@media screen and (max-width: 768px) {
+		background: url(/img/tablet/image-hero.jpg);
+		background-size: cover;
+	}
 }

@@ -8,6 +8,10 @@ h2 {
 	font-weight: 800;
 	font-size: 5.6rem;
 	line-height: 6.4rem;
+
+	@media screen and (max-width: 768px) {
+		font-size: 3.2rem;
+	}
 }
 
 h3 {
@@ -20,6 +24,10 @@ p {
 	font-weight: 400;
 	font-size: 1.8rem;
 	line-height: 3.2rem;
+
+	@media screen and (max-width: 768px) {
+		font-size: 1.5rem;
+	}
 }
 
 .btn {
@@ -28,6 +36,10 @@ p {
 	cursor: pointer;
 	background: $red;
 	color: $white;
+
+	@media screen and (max-width: 768px) {
+		padding: 2.5rem 3rem;
+	}
 }
 
 .btn-black {

@@ -11,6 +11,11 @@
 		top: 24rem;
 		right: -6.55rem;
 		width: 13.5rem;
+
+		@media screen and (max-width: 768px) {
+			width: 6rem;
+			right: -3rem;
+		}
 	}
 }
 
@@ -38,5 +43,20 @@
 
 	span {
 		color: $red;
+	}
+
+	@media screen and (max-width: 768px) {
+		.wrapper {
+			max-width: 27rem;
+
+			h2 {
+				margin-bottom: 4rem;
+				line-height: 1.2;
+			}
+
+			p {
+				margin-bottom: 4rem;
+			}
+		}
 	}
 }
