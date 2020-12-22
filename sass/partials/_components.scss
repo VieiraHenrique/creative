@@ -60,4 +60,9 @@ p {
 	font-size: 1.8rem;
 	padding-bottom: 1rem;
 	border-bottom: 3px solid $red;
+
+	&:hover {
+		color: $pink;
+		border-bottom: 3px solid $pink;
+	}
 }

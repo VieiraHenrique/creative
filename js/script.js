@@ -58,3 +58,12 @@ const showImg = () => {
 };
 
 showImg();
+
+setInterval(() => {
+	if (pointer === carImgs.length - 1) {
+		pointer = 0;
+	} else {
+		pointer++;
+	}
+	showImg();
+}, 2000);
